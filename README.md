@@ -1,13 +1,15 @@
-# City Weather Explorer
+# Weather Forecast Explorer
 
 ## Overview:
 
-The City Weather Explorer is a user-friendly web application for checking real-time weather and 5-day forecasts effortlessly.
+The Weather Forecast Explorer is a user-friendly web application for checking real-time weather and 5-day forecasts effortlessly.
 
 ## Features:
 
 - **Current Weather:**
+
   - Displays temperature, wind speed, and humidity for the entered city.
+
 - **5-Day Forecast:**
 
   - Provides a quick overview of the upcoming weather conditions.
@@ -21,13 +23,14 @@ The City Weather Explorer is a user-friendly web application for checking real-t
   - Quickly check the weather for popular cities like New York, Puerto Rico, and more.
 
 - **Responsive Design:**
+  
   - Ensures a seamless experience across various devices.
 
 ## How to Use:
 
 1. **Access:**
 
-   - Open the City Weather Explorer in your web browser.
+   - Open the Weather Forecast Explorer in your web browser.
 
 2. **Search:**
 
@@ -46,11 +49,12 @@ The City Weather Explorer is a user-friendly web application for checking real-t
    - Enjoy a consistent experience on desktops, tablets, and smartphones.
 
 6. **Error Handling:**
+   
    - Receive alerts for any issues, ensuring a smooth user experience.
 
 ---
 
-### Stay informed about the weather with the simple and effective [City Weather Explorer](https://jetniksyla.github.io/Weather_API/).
+### Stay informed about the weather with the simple and effective [Weather Forecast Explorer](https://jetniksyla.github.io/Weather_API/).
 
 ## Project Screenshot:
 
