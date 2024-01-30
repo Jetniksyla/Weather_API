@@ -54,7 +54,7 @@ The Weather Forecast Explorer is a user-friendly web application for checking re
 
 ---
 
-### Stay informed about the weather with the simple and effective [Weather Forecast Explorer](https://jetniksyla.github.io/Weather_API/).
+### Stay informed about the weather with the simple and effective [Weather Forecast Explorer](https://jetniksyla.github.io/Weather_Forecast_API/).
 
 ## Project Screenshot:
 
