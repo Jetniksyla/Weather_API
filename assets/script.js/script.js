@@ -37,21 +37,29 @@ const updateWeatherData = (cityName, lat, lon) => {
 
       // Extracting current weather information
       const currentWeatherInfo = data.list[0];
+      const date = new Date(currentWeatherInfo.dt * 1000);
+      const formattedDate = date.toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+      });
+
       currentWeather.innerHTML = `
-        <div class="details">
-          <h2>${cityName}</h2>
-          <h4>Temperature: ${(currentWeatherInfo.main.temp - 273.16).toFixed(
-            2
-          )} C°</h4>
-          <h4>Wind: ${currentWeatherInfo.wind.speed} M/S</h4>
-          <h4>Humidity: ${currentWeatherInfo.main.humidity}%</h4>
-        </div>
-        <div class="icon">
-          <img src="https://openweathermap.org/img/wn/${
-            currentWeatherInfo.weather[0].icon
-          }@4x.png" alt="${currentWeatherInfo.weather[0].description}" />
-          <h4>${currentWeatherInfo.weather[0].description}</h4>
-        </div>
+  <div class="details">
+    <h2>${cityName}</h2>
+    <h3>${currentDateFormatted}</h3>
+    <h4>Temperature: ${(currentWeatherInfo.main.temp - 273.16).toFixed(
+      2
+    )} C°</h4>
+    <h4>Wind: ${currentWeatherInfo.wind.speed} M/S</h4>
+    <h4>Humidity: ${currentWeatherInfo.main.humidity}%</h4>
+  </div>
+  <div class="icon">
+    <img src="https://openweathermap.org/img/wn/${
+      currentWeatherInfo.weather[0].icon
+    }@4x.png" alt="${currentWeatherInfo.weather[0].description}" />
+    <h4>${currentWeatherInfo.weather[0].description}</h4>
+  </div>
       `;
 
       // Clear previous forecast cards
