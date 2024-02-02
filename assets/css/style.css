@@ -35,7 +35,6 @@ h3 {
   display: flex;
   gap: 35px;
   padding: 75px 30px;
-  height: 100vh;
 }
 
 /* Styling for input fields in the weather section */
