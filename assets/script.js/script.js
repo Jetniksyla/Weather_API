@@ -135,3 +135,22 @@ const getCityCoordinates = () => {
 
 // Add click event listener for the search button
 searchButton.addEventListener("click", getCityCoordinates);
+
+function addCity() {
+  var cityInput = document.querySelector(".city-input");
+  var cityName = cityInput.value;
+
+  if (cityName.trim() !== "") {
+    var listItem = document.createElement("div");
+    listItem.classList.add("city-item");
+    listItem.textContent = cityName;
+
+    var exploreSection = document.querySelector(".explore-section");
+    exploreSection.appendChild(listItem);
+
+    cityInput.value = "";
+  }
+}
+
+// Attach the addCity function to the click event of the search button
+document.querySelector(".search-btn").addEventListener("click", addCity);
