@@ -58,4 +58,4 @@ The Weather Forecast Explorer is a user-friendly web application for checking re
 
 ## Project Screenshot:
 
-![Alt text](assets/Weather_API.html.png)
+![!\[Alt text\](assets/Weather_API.html.png)](assets/Weather_API.html.png)
