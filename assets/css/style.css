@@ -57,9 +57,15 @@ h3 {
   outline: none;
   border: none;
   color: white;
-  background-color: #1c60afd9;
+  background-color: #092e46;
   border-radius: 25px;
   font-size: 21px;
+
+
+  &:hover {
+    background: #09274bd9;
+  }
+
 }
 
 /* Styling for the separator line in the weather input section */
@@ -122,12 +128,6 @@ h3 {
   margin: 10px;
 }
 
-/* Styling for the 5-day forecast section */
-/* .days-forecast h2 {
-  font-size: 27px;
-  margin: 30px 0;
-} */
-
 /* Styling for the weather cards in the forecast */
 .weather-cards {
   display: flex;
@@ -168,10 +168,32 @@ footer {
   margin: auto;
 }
 
-/* Styling for the explore section buttons in weather input */
-.weather-input .explore-section {
-  background-color: #366e4c;
+/* Styling for the explore section buttons in weather input &hover &active*/
+
+.weather-input .explore-section .city-item {
+  background: #1c60afd9;
+  text-align: center;
+  color: #ffffff;
+  font-size: 28px;
+  margin: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  padding: 10px;
+  border: 2px solid #417671;
+
+  &:hover {
+    background: #3498db;
+  }
+
+  /* Added active effect */
+  &:active {
+    background: #2980b9;
+  }
 }
+
+
+
 
 /* Style for 5-Days Forecast header */
 .days-forecast .seperator::before {
