@@ -135,6 +135,7 @@ h3 {
   justify-content: space-between;
 }
 
+/* Styling for weather cards container */
 .weather-cards .card {
   background-color: #768aa1d9;
   list-style: none;
@@ -147,12 +148,13 @@ h3 {
   justify-content: space-evenly;
   height: auto;
 }
-
+/* Styling for weather cards container img */
 .weather-cards .card img {
   max-width: 70px;
   margin: 5px 0 -12 0;
 }
 
+/* Styling for weather cards container h4*/
 .weather-cards .card h4 {
   padding: 20px 0 0px 0;
 }
@@ -191,9 +193,6 @@ footer {
     background: #2980b9;
   }
 }
-
-
-
 
 /* Style for 5-Days Forecast header */
 .days-forecast .seperator::before {
